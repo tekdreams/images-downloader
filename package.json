@@ -44,6 +44,7 @@
     "url",
     "multiple",
     "downloading",
+    "extension",
     "ext"
   ],
   "author": "Galonde Matthieu <galonde.matthieu@gmail.com>",
