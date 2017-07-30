@@ -34,14 +34,14 @@ const dest = 'path/to/dest'
 
 // An array of image(s) to download
 const images = ['http://url.com/image1.jpg',
-				'http://url.com/image2.png',
-				'http://url.com/image3.gif']
+	'http://url.com/image2.png',
+	'http://url.com/image3.gif']
 ```
 
 To download your single or multiple images use the following...
 
 ```
-download(files, __dirname + "/mediatheque")
+download(images, dest)
 .then(result => {
 	console.log('Images downloaded', result);	
 })
