@@ -55,6 +55,7 @@
   "homepage": "https://github.com/tekdreams/images-downloader#readme",
   "dependencies": {
     "image-type": "^3.0.0",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "underscore": "^1.8.3"
   }
 }
