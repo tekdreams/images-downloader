@@ -1,0 +1,59 @@
+{
+  "name": "images-downloader",
+  "version": "1.0.0",
+  "description": "A Node.js module for downloading a single image or multiple images to disk from a given Url (checking if url exist and detecting image type)",
+  "main": "images-downloader.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tekdreams/images-downloader.git"
+  },
+  "keywords": [
+    "image",
+    "images",
+    "array",
+    "download",
+    "downloader",
+    "crawler",
+    "crawl",
+    "photo",
+    "photos",
+    "img",
+    "pic",
+    "picture",
+    "pictures",
+    "detect",
+    "check",
+    "png",
+    "jpg",
+    "gif",
+    "webp",
+    "bmp",
+    "psd",
+    "jxr",
+    "mime",
+    "buffer",
+    "binary",
+    "type",
+    "isurl",
+    "url",
+    "multiple",
+    "downloading",
+    "ext"
+  ],
+  "author": "Galonde Matthieu <galonde.matthieu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tekdreams/images-downloader/issues"
+  },
+  "homepage": "https://github.com/tekdreams/images-downloader#readme",
+  "dependencies": {
+    "image-type": "^3.0.0",
+    "mocha": "^3.4.2"
+  }
+}
