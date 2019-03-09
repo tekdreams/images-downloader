@@ -1,13 +1,13 @@
 {
   "name": "images-downloader",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A Node.js module for downloading a single image or multiple images to disk from a given Url (checking if url exist and detecting image type)",
   "main": "images-downloader.js",
   "scripts": {
     "test": "mocha --reporter spec"
   },
   "engines": {
-    "node": ">=4.3.2"
+    "node": ">=11"
   },
   "repository": {
     "type": "git",
